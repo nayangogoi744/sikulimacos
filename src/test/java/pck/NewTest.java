@@ -17,8 +17,8 @@ public class NewTest extends Helper{
 		pb.directory(new File("/WM/TESTSRV/testenv/"));
 		//pb.directory(new File("c:\\Essentials\\"));
 		Process p = pb.start();
-		Thread.sleep(1000000);
 		s=new Screen();
+		Thread.sleep(1000000);
 		s.click("images/advance.png");
 		s.click("images/images-tab.png");
 		s.click("images/image-checkbox.png");
