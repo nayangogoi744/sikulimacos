@@ -62,7 +62,7 @@
         <groupId>org.sikuli.script</groupId>
         <artifactId>sikulixapi</artifactId>
         <version>1.1.0</version>
-     <systemPath>${basedir}/lib/sikulixapi-1.1.0.jar</systemPath>
+     <systemPath>${project.basedir}/lib/sikulixapi-1.1.0.jar</systemPath>
         <scope>system</scope>
 </dependency>
 		<dependency>
@@ -75,7 +75,7 @@
         <groupId>org.bridj</groupId>
         <artifactId>bridj</artifactId>
         <version>0.7.0</version>
-     <systemPath>${basedir}/lib/bridj-0.7.0.jar</systemPath>
+     <systemPath>${project.basedir}/lib/bridj-0.7.0.jar</systemPath>
         <scope>system</scope>
 </dependency>
 
@@ -83,7 +83,7 @@
         <groupId>com.beust.jcommander</groupId>
         <artifactId>jcommander</artifactId>
         <version>1.48</version>
-     <systemPath>${basedir}/lib/jcommander-1.48.jar</systemPath>
+     <systemPath>${project.basedir}/lib/jcommander-1.48.jar</systemPath>
         <scope>system</scope>
 </dependency>
 
