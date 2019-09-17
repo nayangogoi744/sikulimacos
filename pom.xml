@@ -67,7 +67,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.8.7</version>
-    <scope>provided</scope>
+    <scope>test</scope>
 </dependency>
 		<dependency>
         <groupId>org.bridj</groupId>
@@ -88,7 +88,7 @@
         <version>2.22.0</version>
         <configuration>
             <suiteXmlFiles>
-                <suiteXmlFilexmlFile>testng.xml</suiteXmlFilexmlFile>
+                <suiteXmlFile>testng.xml</suiteXmlFile>
                 <!-- useSystemClassLoader>false</useSystemClassLoader-->
             </suiteXmlFiles>
             <classpathScope>pck.NewTest</classpathScope>
