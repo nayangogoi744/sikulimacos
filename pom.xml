@@ -91,7 +91,7 @@
         <configuration>
             <suiteXmlFiles>
                 <suiteXmlFile>testng.xml</suiteXmlFile>
-                <!-- useSystemClassLoader>false</useSystemClassLoader-->
+                <useSystemClassLoader>false</useSystemClassLoader>
             </suiteXmlFiles>
             <classpathScope>pck.NewTest</classpathScope>
             
