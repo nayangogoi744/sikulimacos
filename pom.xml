@@ -79,6 +79,14 @@
         <scope>system</scope>
 </dependency>
 
+<dependency>
+        <groupId>com.beust.jcommander</groupId>
+        <artifactId>jcommander</artifactId>
+        <version>1.48</version>
+     <systemPath>${basedir}/lib/jcommander-1.48.jar</systemPath>
+        <scope>system</scope>
+</dependency>
+
   </dependencies>
   
   <build>
