@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 
 import org.sikuli.script.FindFailed;
-import org.sikuli.script.Key;
 import org.sikuli.script.Screen;
 
 public class Execution {

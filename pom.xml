@@ -64,5 +64,13 @@
         <scope>system</scope>
 </dependency>
 		
+		<dependency>
+        <groupId>org.bridj</groupId>
+        <artifactId>bridj</artifactId>
+        <version>0.7.0</version>
+     <systemPath>${project.basedir}\lib\bridj-0.7.0.jar</systemPath>
+        <scope>system</scope>
+</dependency>
+
   </dependencies>
 </project>
