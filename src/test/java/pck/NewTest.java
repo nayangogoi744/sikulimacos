@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class NewTest extends Helper{
   @Test
   public void createImageForMAC() throws FindFailed, IOException, InterruptedException {
-	  	
+	  java.lang.System.setProperty("java.awt.headless", "false");
 	  downloadFile("http://aquarius-dae.eur.ad.sag/PDShare/WWW/dataserveSuiteTest/data/SoftwareAGInstaller.jar", "SoftwareAGInstaller.jar");
 		//ProcessBuilder pb = new ProcessBuilder("C:\\Program Files\\Java\\jdk1.8.0_181\\bin\\java", "-jar", "SoftwareAGInstaller.jar");
 		ProcessBuilder pb = new ProcessBuilder("/WM/opt/jdk1.8.0_latest/bin/java", "-jar", "SoftwareAGInstaller.jar");
