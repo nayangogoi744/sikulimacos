@@ -63,7 +63,12 @@
      <systemPath>${project.basedir}\lib\sikulixapi-1.1.0.jar</systemPath>
         <scope>system</scope>
 </dependency>
-		
+		<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.8.7</version>
+    <scope>provided</scope>
+</dependency>
 		<dependency>
         <groupId>org.bridj</groupId>
         <artifactId>bridj</artifactId>
@@ -73,4 +78,19 @@
 </dependency>
 
   </dependencies>
+  
+  <build>
+<plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M3</version>
+        <configuration>
+            <suiteXmlFiles>
+                <suiteXmlFile>testng.xml</suiteXmlFile>
+            </suiteXmlFiles>
+        </configuration>
+    </plugin>
+</plugins>
+</build>
 </project>
