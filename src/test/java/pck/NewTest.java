@@ -13,7 +13,7 @@ public class NewTest extends Helper{
 	  	
 	  downloadFile("http://aquarius-dae.eur.ad.sag/PDShare/WWW/dataserveSuiteTest/data/SoftwareAGInstaller.jar", "SoftwareAGInstaller.jar");
 		//ProcessBuilder pb = new ProcessBuilder("C:\\Program Files\\Java\\jdk1.8.0_181\\bin\\java", "-jar", "SoftwareAGInstaller.jar");
-		ProcessBuilder pb = new ProcessBuilder("/usr/bin/java", "-jar", "SoftwareAGInstaller.jar");
+		ProcessBuilder pb = new ProcessBuilder("/WM/opt/jdk1.8.0_latest/bin/java", "-jar", "SoftwareAGInstaller.jar");
 		pb.directory(new File("/WM/TESTSRV/testenv/"));
 		//pb.directory(new File("c:\\Essentials\\"));
 		Process p = pb.start();
@@ -22,7 +22,7 @@ public class NewTest extends Helper{
 		s.click("images\\images-tab.png");
 		s.click("images\\image-checkbox.png");
 		s.click("images\\create-image.png");
-		s.type("images\\image-name.png", "c:\\Essentials\\imageAll.zip");
+		s.type("images\\image-name.png", "imageAll.zip");
 		s.click("images\\image-type.png");
 		s.wheel("images\\image-wheel.png",1,8);
 		//s.type(Key.PAGE_DOWN);
