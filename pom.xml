@@ -62,7 +62,7 @@
         <groupId>org.sikuli.script</groupId>
         <artifactId>sikulixapi</artifactId>
         <version>1.1.0</version>
-     <systemPath>${project.basedir}/lib/sikulixapi-1.1.0.jar</systemPath>
+     <systemPath>${basedir}/lib/sikulixapi-1.1.0.jar</systemPath>
         <scope>system</scope>
 </dependency>
 		<dependency>
@@ -75,7 +75,7 @@
         <groupId>org.bridj</groupId>
         <artifactId>bridj</artifactId>
         <version>0.7.0</version>
-     <systemPath>${project.basedir}/lib/bridj-0.7.0.jar</systemPath>
+     <systemPath>${basedir}/lib/bridj-0.7.0.jar</systemPath>
         <scope>system</scope>
 </dependency>
 
@@ -86,12 +86,12 @@
     <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
-        <!-- version>3.0.0-M3</version-->
-        <version>2.22.0</version>
+        <version>3.0.0-M3</version>
+        <!--version>2.22.0</version-->
         <configuration>
             <suiteXmlFiles>
                 <suiteXmlFile>testng.xml</suiteXmlFile>
-                <useSystemClassLoader>false</useSystemClassLoader>
+                <!-- useSystemClassLoader>false</useSystemClassLoader-->
             </suiteXmlFiles>
             <classpathScope>pck.NewTest</classpathScope>
             
